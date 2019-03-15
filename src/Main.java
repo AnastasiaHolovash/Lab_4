@@ -21,6 +21,7 @@ public class Main {
         }
         System.out.print("\n");
 
+
         System.out.println("Sorted by age for a decrease:");
         System.out.print("\n");
         Arrays.sort(studentsArr, Comparator.comparing(Student::getAge).reversed());
